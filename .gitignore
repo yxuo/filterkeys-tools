@@ -1,0 +1,67 @@
+# Gitignore genérico - v1.0
+
+# git ls-files --others --exclude-from=.git/info/exclude
+# Lines that start with '#' are comments.
+# For a project mostly in C, the following would be a good set of
+# exclude patterns (uncomment them if you want to use them):
+# *.[oa]
+# *~
+
+# temp
+*tempCodeRunnerFile*
+*_temp_.*
+.$*
+*.bkp
+temp
+*.tmp
+
+# development
+*.log
+.env
+.env.*
+
+# testing
+/coverage
+
+# production
+/build
+
+# system
+*.exe
+*.vscode*
+*.git
+## Google Drive
+desktop.ini
+## macOS
+.DS_Store
+
+# python
+venv/
+__pycache__/
+scripts/
+
+# Django
+*.pot
+*.pyc
+__pycache__
+media
+
+# dependencies
+node_modules/
+.pnp
+.pnp.*
+
+# React, Node
+.nvm
+package-lock.json
+## Expo (React Native)
+.expo/
+dist/
+npm-debug.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
